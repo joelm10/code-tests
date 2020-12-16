@@ -1,0 +1,22 @@
+{
+  "name": "parcel-tool",
+  "version": "0.0.1",
+  "description": "Simple program that receives four integer inputs to indicate the weight and size of a parcel for",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "babel-node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mockRun": "babel-node src/testRunner.js"
+  },
+  "keywords": [
+    "code",
+    "demo"
+  ],
+  "author": "Joel Morrison <joelm@jmm.id.au>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.10.0"
+  }
+}
